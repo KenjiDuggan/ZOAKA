@@ -1,2 +1,2 @@
 # ZOAKA
-Fullstack practice application using Vuejs and RubyOnRails
+Fullstack practice application using VERN
