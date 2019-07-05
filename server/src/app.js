@@ -5,13 +5,14 @@ const cors = require('cors');
 const morgan = require('morgan');
 
 const app = express(); 
-app.use(morgan.use('combine')); 
+app.use(morgan('combined')); 
 app.use(bodyParser.json()); 
 app.use(cors()); 
 
-app.get('/', (req, res) =>{
+app.get('/register', (req, res) =>{
     res.send({
-        message: "HelloWorld!"
+        message: "Hello Your user was registered have fun!"
+
     })
 })
 
